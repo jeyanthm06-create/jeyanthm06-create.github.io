@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jeyanth M | Portfolio</title>
+  <meta name="description" content="Portfolio of Jeyanth, BIET Davangere. Building strong fundamentals in DSA and core CS." />
+  <meta name="theme-color" content="#07070b" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Background glow -->
+  <div class="bg" aria-hidden="true">
+    <span class="orb o1"></span>
+    <span class="orb o2"></span>
+    <span class="orb o3"></span>
+    <span class="grid-overlay"></span>
+  </div>
+  <div class="cursor-glow" id="cursor-glow" aria-hidden="true"></div>
+
+  <header class="nav" id="nav">
+    <a href="#top" class="logo"><span class="mono">&lt;</span>Jeyanth<span class="mono"> /&gt;</span></a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#dsa">DSA</a>
+      <a href="#skills">Skills</a>
+      <a href="#building">Building</a>
+      <a href="#contact" class="nav-cta">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="avatar">
+        <img src="photo.jpg" alt="Jeyanth M" />
+      </div>
+      <p class="pill"><i></i> Open to learning · Building fundamentals</p>
+      <h1>Hi, I'm <span class="grad">Jeyanth M</span></h1>
+      <p class="role mono">
+        <span id="typed"></span><span class="caret">|</span>
+      </p>
+      <p class="tagline">
+        CSE at BIET, Davangere. This year: DSA and core CS, done properly.
+        Next year: projects built on a solid base.
+      </p>
+      <div class="cta">
+        <a class="btn primary" href="#dsa">See my progress</a>
+        <a class="btn ghost" href="#contact">Get in touch</a>
+      </div>
+      <div class="scroll-hint mono">scroll ↓</div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="reveal">
+      <p class="label mono">01 / about</p>
+      <h2>Fundamentals first. Everything else later.</h2>
+      <div class="about-grid">
+        <p>
+          I study Computer Science and Engineering at BIET, Davangere (VTU Autonomous).
+          I started with C++ before college and now work with C, C++ and the web basics.
+        </p>
+        <p>
+          My focus right now is consistency: solving DSA problems regularly and building
+          strong basics in OS, DBMS, networks and OOP. Long-term focus: ML/AI.
+        </p>
+      </div>
+      <ul class="learning">
+        <li><b>DSA</b></li>
+        <li><b>OS</b></li>
+        <li><b>DBMS</b></li>
+        <li><b>Networks</b></li>
+        <li><b>OOP</b></li>
+      </ul>
+    </section>
+
+    <!-- DSA PROGRESS -->
+    <section id="dsa" class="reveal">
+      <p class="label mono">02 / dsa progress</p>
+      <h2>Learning DSA, one pattern at a time.</h2>
+
+      <div class="stats">
+        <div class="stat">
+          <span class="num" data-count="137">0</span>
+          <span class="cap">LeetCode problems solved</span>
+        </div>
+        <div class="stat">
+          <span class="num small">Striver A2Z</span>
+          <span class="cap">Primary roadmap</span>
+        </div>
+        <div class="stat">
+          <span class="num small">C → C++</span>
+          <span class="cap">Language transition</span>
+        </div>
+      </div>
+
+      <div class="topics">
+        <div class="topic done"><span>Arrays</span><em>Practised</em></div>
+        <div class="topic done"><span>Binary Search</span><em>Practised</em></div>
+        <div class="topic done"><span>Strings &amp; Two Pointers</span><em>Practised</em></div>
+        <div class="topic done"><span>Hashing, Math &amp; Sliding Window</span><em>Practised</em></div>
+        <div class="topic done"><span>Dynamic Programming</span><em>Practised</em></div>
+        <div class="topic doing"><span>Linked List (in C++)</span><em>In progress</em></div>
+        <div class="topic next"><span>Stack &amp; Queue</span><em>Up next</em></div>
+        <div class="topic next"><span>Trees &amp; Graphs</span><em>Up next</em></div>
+      </div>
+
+      <a class="link-arrow" href="https://github.com/jeyanthm06-create" target="_blank" rel="noopener">View my solutions on GitHub →</a>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="reveal">
+      <p class="label mono">03 / skills &amp; tools</p>
+      <h2>What I work with.</h2>
+      <div class="skill-groups">
+        <div class="group">
+          <h3>Languages</h3>
+          <ul class="chips"><li>C</li><li>C++</li><li>Python</li></ul>
+        </div>
+        <div class="group">
+          <h3>Web</h3>
+          <ul class="chips"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+        </div>
+        <div class="group">
+          <h3>Tools</h3>
+          <ul class="chips"><li>Git</li><li>GitHub</li><li>VS Code</li></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- BUILDING -->
+    <section id="building" class="reveal">
+      <p class="label mono">04 / currently building</p>
+      <h2>In progress.</h2>
+
+      <article class="feature">
+        <div class="feature-info">
+          <span class="badge"><i></i>In progress</span>
+          <h3>DSA Revision System</h3>
+          <p>
+            A pattern-based system to revise DSA properly instead of re-solving blindly.
+            Every problem is stored by what matters when you face it again.
+          </p>
+          <p class="note mono">More projects coming in 2027.</p>
+        </div>
+        <div class="notebook mono" aria-hidden="true">
+          <div><span class="k">pattern</span><span class="v">Sliding Window</span></div>
+          <div><span class="k">trigger</span><span class="v">longest / shortest subarray</span></div>
+          <div><span class="k">time</span><span class="v">O(n)</span></div>
+          <div><span class="k">space</span><span class="v">O(1)</span></div>
+          <div><span class="k">trap</span><span class="v">shrink window too early</span></div>
+        </div>
+      </article>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="reveal">
+      <p class="label mono">05 / contact</p>
+      <h2>Let's connect.</h2>
+      <p class="sub">Always happy to talk about DSA, college, or learning in public.</p>
+      <div class="contact-cards">
+        <a class="c-card" href="mailto:jeyanthm06@gmail.com">
+          <span class="c-title">Email</span>
+          <span class="c-val">jeyanthm06@gmail.com</span>
+        </a>
+        <a class="c-card" href="https://github.com/jeyanthm06-create" target="_blank" rel="noopener">
+          <span class="c-title">GitHub</span>
+          <span class="c-val">jeyanthm06-create</span>
+        </a>
+        <a class="c-card" href="https://www.linkedin.com/in/jeyanth-m-6a53bb385" target="_blank" rel="noopener">
+          <span class="c-title">LinkedIn</span>
+          <span class="c-val">Jeyanth M</span>
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Jeyanth · Built with HTML, CSS and JS</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
